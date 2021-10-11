@@ -1,0 +1,46 @@
+orange bold: FC6A77 w: FEA896
+pu bold : 8673EC w:C29FE6
+g: 37CECD w: 5DD39B
+b: 67CCE5 w: 668FE8
+
+
+8BC645
+
+
+E97295 AA154E
+
+
+
+FC85A9
+
+
+1-3 blue {
+    #00B4DB
+    #0083B0
+}
+
+3-5  green {
+#11998e
+
+#38ef7d
+}
+
+6-8 p{
+    #ff00cc
+→ 
+#333399
+}
+
+9-10 or{
+    #fc4a1a
+→ 
+#f7b733
+}
+
+
+
+
+
+
+
+
