@@ -1,0 +1,12 @@
+.col-lg-2{
+    padding: 0;
+    flex: 0 0 12.666667%;
+    position: fixed;
+
+}
+
+.col-lg-9{
+    margin-left: 227px;
+    flex: 0 0 84.333333%;
+    max-width: 84.33333%;
+}

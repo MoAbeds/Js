@@ -1,0 +1,741 @@
+.Timecontainer{
+    flex: 1 1 0 ;
+  height: 100vh;
+  background:rgb(228, 234, 238);
+    font-size: .875rem;
+    font-family: Roboto,sans-serif;
+    color: #333;
+    white-space: nowrap;
+    background-color: #eff4f7;
+}
+.trackeritems{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.allitems img{
+    width: 25px;
+    
+}
+.allitems{
+    padding: 2.5rem 1.25rem 0;
+    display: inline-flex;
+    border: 1px solid #c6d2d9;
+    border-radius: .125rem;
+    background-color: #fefefe;
+    line-height: 3.75rem;
+    height: 60px;
+    text-align: right;
+    position: relative;
+    top: 35px;
+
+}
+.entry{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 32px;
+    
+
+}
+.tracker_description{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    text-align: left;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.tracker_input_entry{
+    display: inline-block;
+    height: 2.5rem;
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 0 0 0 10px;
+    flex-grow: .8;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.project_entry{
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 50px;
+    right:80px;
+    top: 4px;
+    border-right: 1px dotted #c6d2d9;
+    width: 15%;
+}
+.project_entry span{
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+    font-size: 15px;
+
+}
+.project_entry i {
+    font-size: 25px;
+    position: relative;
+    top: 9px;
+    color: #03a9f4;
+}
+.tag_entry{
+    position: relative;
+    right: 35px;
+    top: 2px;
+    width:50px;
+    position: relative;
+    display: inline-block;
+    border-right: 1px dotted #c6d2d9;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.tag_entry i{
+    position: relative;
+    right: 19px;
+    font-size: 25px;
+}
+.entry_right_container{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    left: 60px;
+    width: 500px;
+    
+}
+
+.dollar_entry{
+    display: inline-block;
+    border-right: 1px dotted #c6d2d9;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    position: relative;
+    right: 105px;
+    height: 50px;
+    width: 40px;
+    cursor: pointer;
+    
+}
+
+
+
+.dollar_entry i{
+    position: relative;
+    font-size: 25px;
+    right: 20px;
+    
+}
+
+
+.stopwatch_input{
+    position: relative;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    font-family: Roboto,sans-serif;
+    width: 62px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    right: 90px;
+}
+.stopwatch_button{
+    border-radius: .125rem;
+    background-color: #03a9f4;
+    padding: 0 2.5rem;
+    line-height: 2.5rem;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    color: #fefefe;
+    text-transform: uppercase;
+    position: relative;
+    right: 70px;
+    border: none;
+    
+}
+
+.switch_entery{
+    display: inline-flex;
+    flex-direction: column;
+    line-height: 1.25rem;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    text-align: center; 
+    position: relative;
+    right: 40px;
+    
+}
+.switch_entery i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/**                     TOggle Css                  */
+
+
+.tracker_input_entry_toggle{
+    display: inline-block;
+    height: 2.5rem;
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 0 0 0 10px;
+    flex-grow: .6;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.project_entry_toggle{
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 50px;
+    right:150px;
+    top: 4px;
+    border-right: 1px dotted #c6d2d9;
+    width: 15%;
+}
+.project_entry_toggle span{
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+    font-size: 15px;
+
+}
+.project_entry_toggle i {
+    font-size: 25px;
+    position: relative;
+    top: 9px;
+    color: #03a9f4;
+}
+.tag_entry_toggle{
+    position: relative;
+    right: 117px;
+    top: 2px;
+    width:50px;
+    position: relative;
+    display: inline-block;
+    border-right: 1px dotted #c6d2d9;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.tag_entry_toggle i{
+    position: relative;
+    right: 19px;
+    font-size: 25px;
+}
+.dollar_entry_toggle{
+    display: inline-block;
+    border-right: 1px dotted #c6d2d9;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    position: relative;
+    right: 190px;
+    height: 50px;
+    width: 40px;
+    
+}
+.dollar_entry_toggle i{
+    position: relative;
+    font-size: 25px;
+    right: 20px;
+    
+}
+.tracker_date_picker{
+    display: inline-block;
+    position: relative;
+    right: 170px;
+    top: 5px;
+
+}
+.tracker_date{
+    display: inline-block;
+    vertical-align: middle;
+}
+.input_tracker_input{
+    cursor: pointer;
+    background: red;
+    height: 40px;
+    display: block;
+    margin: 0;
+    border: none;
+    outline: 0;
+    padding: 0;
+    width: 4.375rem;
+    text-align: center;
+}
+.tracker-start{
+    display: inline-block;
+    vertical-align: middle;
+}
+.input_tracker_start{
+    cursor: pointer;
+    background: red;
+    height: 40px;
+    display: block;
+    margin: 0;
+    border: none;
+    outline: 0;
+    padding: 0;
+    width: 4.375rem;
+    position: relative;
+    left: 100px;
+    bottom: 52px;;
+    text-align: center;
+}
+.stopwatch_button_toggle{
+    border-radius: .125rem;
+    background-color: #03a9f4;
+    padding: 0 2.5rem;
+    line-height: 2.5rem;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    color: #fefefe;
+    text-transform: uppercase;
+    position: relative;
+    left: 130px;
+    bottom: 50px;
+    border: none;
+    
+}
+.switch_entery_toggle{
+    display: inline-flex;
+    flex-direction: column;
+    line-height: 1.25rem;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    text-align: center; 
+    position: relative;
+    left:138px;
+    bottom: 58px;
+}
+
+.switch_entery_toggle i {
+    font-size: 25px;
+    cursor: pointer;
+}
+.tracker_toggle_calender{
+    position: relative;
+    left: 120px;
+    bottom: 45px;
+}
+.tracker_toggle_calender i{
+    font-size: 25px;
+}
+.calenderstyle{
+    position: fixed;
+    top: 110px;
+    right: 120px;
+    background: #03a9f4;
+    color: #03a9f4;
+    
+    font-size: 14px;
+}
+.stoptimerdiv{
+    position: relative;
+    right: 30px;
+    top: 3px;
+}
+
+
+
+
+.stoptimerdiv i {
+    font-size: 20px;
+
+}
+
+.stoptimerdiv i:hover{
+    color: #03a9f4;
+}
+
+
+.puasebtndiv{
+    position: relative;
+    font-size: 30px;
+    right: 50px;
+}
+
+.puasebtndiv i:hover{
+    color: #03a9f4;
+}
+
+.playbtndiv{
+    position: relative;
+    font-size: 30px;
+    right: 50px;
+}
+
+.playbtndiv i:hover{
+    color: #03a9f4;
+}
+
+.stopwatch_button_toggle_new{
+    border-radius: .125rem;
+    background-color: #f2433d;
+    padding: 0 2.5rem;
+    line-height: 2.5rem;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    color: #fefefe;
+    text-transform: uppercase;
+    position: relative;
+    border: none;
+    right: 70px;
+}
+
+/** card */
+.cardpostion{
+
+    
+}
+
+.cardcontainer{
+    position: relative;
+    display: inline-flex;
+    width: 94%;
+    border-radius: .125rem;
+    line-height: 3.75rem;
+    text-align: right;
+    height: 72%;
+    position: relative;
+    left: 25px;
+    flex-direction: column;
+    
+    
+    
+}
+.trackercard_finished_list{
+    border: 1px solid #c6d2d9;
+    border-radius: .125rem;
+    border-bottom: 2px solid #c6d2d9;
+    background: #793333;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.trackercard_list_date{
+    display: flex;
+    position: relative;
+    line-height: 3.125rem;
+    color: #999;
+    background-color: #e4eaee;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+
+.trackercard_list_timeentry_div{
+    display: block;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #c6d2d9;
+    background-color: #fefefe;
+    line-height: 3.75rem;
+    text-align: right;
+}
+
+.trackercard_list_time_fullentry{
+    display: inline-flex;
+    width: 100%;
+    height: 60px;
+}
+.trackercard_list_time_fullentry :hover{
+    background: #eff4f7;
+}
+.trackercard_list_time_input_div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    text-align: left;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.trackercard_list_fullentry_input{
+    display: inline-block;
+    height: 2.5rem;
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 0 0 0 10px;
+    flex-grow: .6;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.project_trackerlist_entry{
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 50px;
+    left:10px;
+    top: 4px;
+    border-right: 1px dotted #c6d2d9;
+    width: 15%;
+
+}
+.project_trackerlist_entry span{
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+    font-size: 15px;
+
+
+}
+.project_trackerlist_entry i {
+    font-size: 25px;
+    position: relative;
+    top: 9px;
+    color: #03a9f4;
+}
+
+.tag_trackerlist_entry{
+    position: relative;
+    right: 10px;
+    top: px;
+    width:50px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+.tag_trackerlist_entry i{
+    position: relative;
+    right: 26px;
+    top: 8px;
+    font-size: 25px;
+}
+
+.rightcontainer_trackerlist_entry{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    left: 60px;
+    width: 500px;
+}
+.dollar_trackerlist_entry{
+    display: inline-block;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    position: relative;
+    right: 210px;
+    height: 50px;
+    width: 0px;
+    background: tan;
+    
+}
+.dollar_trackerlist_entry i{
+    position: relative;
+    font-size: 25px;
+    left: 100px;
+    top: px;
+    
+}
+
+
+.timer_container_trackerlist_entry{
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    height: 50px;
+    
+    right: 80px;
+
+}
+
+.timer_end_trackerlist_entry{
+    display: inline-flex;
+    vertical-align: middle;
+    flex-direction: row;
+    height: 40px;
+    position: relative;
+    bottom: 7px;
+
+}
+.input_trackercard_end{
+    cursor: pointer;
+    background: 0 0;
+    height: 40px;
+    display: block;
+    margin: 0;
+    border: none;
+    outline: 0;
+    padding: 0;
+    width: 4.375rem;
+    text-align: center;
+    position: relative;
+    bottom: 1px;
+    
+}
+.timer_container_trackerlist_entry_start{
+    display: inline-block;
+    
+
+
+}
+.input_trackercard_start{
+    cursor: pointer;
+    background: 0 0;
+    height: 40px;
+    display: block;
+    margin: 0;
+    border: none;
+    background: red;
+    position: relative;
+    left: 10px;
+    outline: 0;
+    padding: 0;
+    width: 4.375rem;
+    text-align: center;
+    position: relative;
+    bottom: 1px;
+    left: 15px;
+    
+}
+.calender_trackercard{
+    font-size: 30px;
+    
+}
+.calender_trackercard i {
+    position: relative;
+    bottom: 15px;
+    left: 30px;
+}
+
+.seetime_input_trackercard{
+    display: inline-block;
+    height: 40px;
+    vertical-align: middle;
+    background: 0 0;
+    border-right: 1px dotted #c6d2d9;
+    border-left: 1px dotted #c6d2d9;
+    color: #333;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+    box-shadow: none;
+}
+.fulltime_display_timercard{
+    font-size: 25px;
+    position: relative;
+    left: 70px;
+    bottom: 4px;
+}
+.fulltime_display_timercard :hover{
+    color: #03a9f4;
+}
+
+.smallmenu_trackercard{
+    font-size: 25px;
+    position: relative;
+    left: 100px;
+    bottom: 4px;
+}
+
+.deletecard{
+    font-size: 25px;
+    position: relative;
+    left: 100px;
+    bottom: 5px;
+}
+
+.deletecard:hover{
+    color: #f2433d;
+}
+/**/
+
+
+.projectdropdownmenu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+li {
+    cursor: pointer;
+    padding: 5px 20px;
+        clear: both;
+        font-weight: 400;
+        line-height: 1.42857143;
+        color: #333;
+        white-space: nowrap;
+        text-decoration: none;
+    
+}
+li:hover{
+    background: #5287a5;
+}
+
+.checkboxmenu{
+    position: relative;
+    display: inline-block;
+    background-color: #fefefe;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+}

@@ -1,0 +1,120 @@
+.createworkspace-container{
+    background: #eff4f7;
+    height: 90vh;
+    width: 95%;
+    position: relative;
+}
+.create-page-container{
+    min-width: 20rem;
+    font-size: .875rem;
+    padding-left: 1.25rem;
+}
+
+.create-workspace__title{
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 100px;
+    font-size: 1.5rem;
+    color: #999;
+}
+
+.create-workspace__content{
+    margin-right: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #c6d2d9;
+    border-radius: .125rem;
+    border-bottom-width: .1875rem;
+    font-size: .75rem;
+    width: 90%;
+    height: 30px;
+}
+
+.create-workspace__content--header{
+    border-bottom: 1px solid #c6d2d9;
+    background: #e4eaee;
+    padding: .875rem 1.25rem;
+    color: #999;
+    font-size: .75rem;
+}
+
+.workspace__content--create-new{
+    padding: 3.75rem;
+    text-align: center;
+}
+
+.create-workspace__title{
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 100px;
+    font-size: 1.5rem;
+    color: #999;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: inherit;
+    text-rendering: optimizeLegibility;
+}
+
+.inputclass{
+    padding: 1.25rem;
+    width: 50%;
+    border: 1px solid #c6d2d9;
+    border-radius: 2px;
+    color: #333;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+}
+
+.button__container{
+    position: relative;
+    top: 20px;
+}
+.backbutton{
+    color: #333;
+    border-bottom-color: #333;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.con_btn_dis{
+    cursor: pointer;
+    margin-left: .625rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 7.5rem;
+    height: 2.5rem;
+    border-radius: .125rem;
+    background-color: #03a9f4;
+    color: #fefefe;
+    text-transform: uppercase;
+    background-color: #6eccf6;
+    border: none;
+}
+
+.con_btn_active{
+    cursor: pointer;
+    margin-left: .625rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 7.5rem;
+    height: 2.5rem;
+    border-radius: .125rem;
+    background-color: #03a9f4;
+    color: #fefefe;
+    text-transform: uppercase;
+    border: none;
+}

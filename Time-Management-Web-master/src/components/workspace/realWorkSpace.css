@@ -1,0 +1,131 @@
+.workspace-container1{
+    background: #eff4f7;
+    height: 90vh;
+    width: 95%;
+    position: relative;
+}
+
+.page-container{
+    min-width: 20rem;
+    font-size: .875rem;
+    padding-left: 1.25rem;
+}
+
+.workspace__title{
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 100px;
+    font-size: 1.5rem;
+    color: #999;
+}
+
+.workspace__button-create-new{
+    position: relative;
+    float: right;
+    display: inline-block;
+    height: 40px;
+    margin-top: 1.875rem;
+    margin-right: 1.25rem;
+    border-radius: .125rem;
+    background-color: #8bc34a;
+    padding: 0 .625rem;
+    line-height: 40px;
+    color: #fff;
+    font-size: .875rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+.workspace__content{
+    border-bottom: 1px solid #c6d2d9;
+    background: #e4eaee;
+    padding: .875rem 1.25rem;
+    color: #999;
+    font-size: .75rem;
+    width: 95%;
+    height: 65px;
+
+}
+
+.workspace__content--header{
+    border-bottom: 1px solid #c6d2d9;
+    background: #e4eaee;
+    padding: .875rem 1.25rem;
+    color: #999;
+    font-size: .75rem;
+}
+.workspace__item{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    width: 104%;
+    border-bottom: 1px solid #c6d2d9;
+    padding: 0 1.25rem;
+    line-height: 3.75rem;
+    background: #EFF4F7;
+    top: px;
+    right: 15px;
+    margin-top: 10px;
+}
+
+.plusitem{
+    height: 19px;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    color: black;
+    float: left;
+    
+}
+
+.workspace__item--name{
+    display: block;
+    width: 50%;
+    margin-left: 1.25rem;
+    color: #333;
+    font-size: .975rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    
+}
+
+.workspace__item--menu{
+    display: inline-block;
+    position: absolute;
+    right: 1.25rem;
+    font-size: .875rem;
+}
+
+.item--set-default-workspace{
+    color: #03a9f4;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom-color: #333;
+    border: none;
+    position: relative;
+
+}
+
+.item--setings{
+    margin: 0 1.25rem;
+    background-color: #03a9f4;
+    border-radius: .125rem;
+    color: #fefefe;
+    text-transform: uppercase;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    width: 140px;
+    
+}
+.signouticon{
+    font-size: 20px;
+    color: black;
+}
