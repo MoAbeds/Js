@@ -1,0 +1,116 @@
+.header{
+    background: black;
+    grid-area: h;
+    display: grid;
+    
+     grid-template-columns: repeat(12,1fr) ;
+     grid-template-areas: 
+     "me lg da h h h h h h h tg tg "
+     
+   }
+   .datediv{
+     grid-area: da;
+   }
+   .datetext{
+     color: white;
+     
+       text-align: center;
+       justify-items: center;
+       position: relative;
+       font-size: 20px;
+       
+     
+       
+     }
+     
+   
+   .menuicondiv{
+     grid-area: me;
+   }
+   .logodiv{
+     grid-area: lg;
+     background: red;
+   }
+   .styletogglebtndiv{
+     width: 70%;
+     grid-area: tg;
+     margin-left: 55px;
+       }
+   
+   .lighttext{
+     position: relative;
+     margin-right: 10px;
+     margin-top: 5px;
+   }
+   .darktext{
+     
+     margin-left: 10px;
+     margin-top: -15px;
+   }
+   
+   .HeaderToggle{
+     margin-top: 12px;
+     flex-grow: 1;
+   }
+   .header h5{
+     color:white;
+     position: absolute;
+     font-size: 20px;
+     margin-left: 340px;
+     margin-top: 10px;
+     
+     
+   }
+   .header label span{
+     color: white;
+     
+   }
+
+ .burgermenu{
+    font-size: 35px;
+color: red;
+
+ }
+
+
+
+
+
+
+/**header toogle design*/
+.headernew{
+    background: white;
+    grid-area: h;
+    display: grid;
+    box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+    grid-template-columns: repeat(12,1fr) ;
+    grid-template-areas: 
+    "me lg date date date date h h h h tg tg"
+  
+  }
+  
+  .datedivnew{
+    grid-area: date;
+    width: 70%;
+    margin-left: 185px;
+    
+    text-align: center;
+  }
+  .datetextnew{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+margin-top: -13px;
+
+    
+  
+    
+  }
+  
+
+  .burgermenunew{
+    font-size: 35px;
+    color: white
+
+
+ }

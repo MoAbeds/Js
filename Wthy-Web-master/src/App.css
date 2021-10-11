@@ -1,0 +1,439 @@
+.container{
+
+display: grid;
+grid-template-columns: repeat(12,2fr);
+grid-template-rows: 50px  627px ;
+grid-template-areas: 
+ "h h h h h h h h h h h h "
+ "f f f f f f f f f f f f ";
+
+}
+
+.containertwo{
+background: #FFDD00;
+width: 1364px;
+
+}
+
+
+
+.cardDesign{
+  width: 300px;
+  height: 500px;
+  background: black ;  
+  border-radius: 15px;
+  margin-left: 0px;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+  margin-top: 60px;
+  
+  position: relative;
+  display: block;
+  
+  
+
+}
+
+.weatherListContainer{
+  margin-left: 490px;
+  margin-top: -560px;
+}
+
+.searchformcontainer{
+  margin-left:100px;
+}
+
+
+.backbtncoursel{
+  position: absolute;
+  right: 1270px;
+  top: 280px;
+  background: transparent;
+
+}
+
+.backbtncoursel i {
+  font-size:70px;
+  color: black;
+}
+
+.buttonBack___1mlaL{
+  background: transparent;
+  border: none;
+  
+}
+
+.nextbtncoursel{
+  position: absolute;
+  top: 280px;
+  left: 1280px;
+
+
+
+}
+
+.buttonNext___2mOCa{
+  background: transparent;
+  border: none;
+
+}
+.nextbtncoursel i {
+  font-size:70px;
+  color: #FFDD00;
+}
+
+.cardDesign h5{
+  color:white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.cityicon{
+  position: relative;
+  height: 200px;
+  width: 280px;
+  margin-top: 20px;
+  right: 50px;
+  left: 7px;
+}
+.cardDesign i{
+  color: #FFDD00;
+  font-size: 100px;
+  margin-left: 100px;
+  margin-top: 120px;
+}
+.formdesign{  
+  position: relative;
+  box-sizing: border-box;
+  width: 250px;
+  margin-left: 20px;
+  margin-top: 100px;
+  height: 200px;
+  background:  #fff; 
+  
+  ;
+  text-align: center;
+  border-radius: 2px 2px 5px 5px;
+
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.closetheicon{
+  float: right;
+  width: 25px;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+.inputshape{
+  margin-top: 16px;
+  margin-left: 0px;
+  height: 25px;
+  width:95%;
+  border: none;
+  
+}
+.formbtn{
+ margin-top: 30px;
+  height: 40px;
+  border-radius: 15px;
+  color: #FFDD00;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+
+  background:black; 
+}
+.usaflag{
+ margin-top: 10px;
+  margin-left: 9px;
+  width:120px; 
+  height:60px;
+}
+.weatherlist{
+  
+  position:fixed;
+  display: grid;
+  grid-gap: 50px;
+  grid-auto-flow: column;
+  left: 60px;
+  bottom: 130px;
+  margin-top: 40px;
+  height: 90%;
+  overflow-x: scroll;
+  width: 100%;
+  overflow-wrap: normal;
+
+}
+
+.btnclicktoid{
+  width: 300px;
+  height: 500px;
+  background: black ;  
+  border-radius: 5%;
+  margin-top: 60px;
+  margin-right: 90px;
+
+}
+
+
+.cityName{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  bottom: 20px;
+  
+}
+.weathericoncard{
+ height: 150px;
+ width: 200px;
+margin-top: -170px;
+padding-bottom: 100px;
+padding-top: 50px;
+margin-left: -60px;
+
+}
+.weathericoncard img{
+  width: 100%;
+  
+}
+.tempo{
+  width: 100%;
+  height: 15%;
+   margin-top: 10px;
+  text-align: center;
+
+}
+
+.maintempcard{
+  position: relative;
+  color:white;
+  font-size: 60px;
+ bottom: 15px;
+  
+}
+.weathercarddescription{
+  color: white;
+  font-size: 14px;
+  margin-top: -70px;
+  margin-right: 20px;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+.maxtempdiv{
+  margin-top:0px;
+ text-align: center;
+  justify-content: center;
+}
+.maxtempcardtext{
+  font-size: 30px;
+  color: white;
+  font-weight: 100;
+  float: right;
+  margin-right:50px;
+  margin-top: 30px;
+}
+.maxpred{
+  color: #e74c3c;
+  font-size: 15px;
+  float: right;
+  margin-top: 70px;
+  margin-right: -21px;
+}
+.maxtempdiv i{
+  font-size: 25px;
+  margin-right: -240px;
+  margin-top: 10px;
+  color: #e74c3c;
+}
+.mintempdiv{
+  color: red;
+  text-align: center;
+  justify-content: center;
+  float: left;
+  margin-top: -100px;
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+.mintempcard{
+  font-size: 30px;
+  margin-top: -5px;
+
+
+
+  color: white;
+  font-weight: 100;
+}
+.mintempdiv p{
+  color: #2ECC71;
+  margin-top: -45px;
+  
+
+
+  
+  font-size: 15px;
+}
+.mintempdiv i{
+  margin-top: 70px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  margin-right: -10px;
+  color: #59FFB4;
+
+
+}
+/*  change style on toggle in the first page  ////////////////////////////*/
+
+.containertwonew{
+  background: white;
+  grid-area: f;
+
+  
+
+}
+
+
+
+.btnclicktoidnew{
+  width: 300px;
+  height: 500px;
+  border-radius: 5%;
+  background-image: linear-gradient(#59FFB4, #2CC8E1);;
+  border: none;
+  margin-top: 60px;
+  box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+  margin-right: 90px;
+
+
+}
+.cityNamenew{
+  color: black;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  bottom: 20px;
+  
+}
+.maintempcardnew{
+  position: relative;
+  color:black;
+  font-size: 60px;
+ bottom: 15px;
+  
+}
+
+.weathercarddescriptionnew{
+  color: black;
+  font-size: 14px;
+  margin-top: -70px;
+  margin-right: 20px;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+  
+  
+}
+.maxtempcardtextnew{
+  color: black;
+  font-size: 30px;
+  font-weight: 100;
+  float: right;
+  margin-right:50px;
+  margin-top: 30px;
+  
+}
+.mintempcardnew{
+  color: black;
+  font-size: 30px;
+  margin-top: -5px;
+  font-weight: 100;
+}
+
+.cardDesignnew{
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(#59FFB4, #2CC8E1);
+  box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+  margin-top: 60px;
+  border-radius: 15px;
+}
+
+.cardDesignnew i{
+
+  color: black;
+  font-size: 100px;
+  margin-left: 100px;
+  margin-top: 120px;
+
+}
+
+.cardDesignnew h5{
+  color:black;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.mintempdivnew{
+  text-align: center;
+  justify-content: center;
+  float: left;
+  margin-top: -100px;
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+.mintempcard{
+  font-size: 30px;
+  margin-top: -5px;
+
+
+
+  color: white;
+  font-weight: 100;
+}
+.mintempdivnew p{
+  color: black;
+  margin-top: -45px;
+  
+
+
+  
+  font-size: 15px;
+}
+.mintempdivnew i{
+  margin-top: 70px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  margin-right: -10px;
+  color: black;
+
+
+}
+
+.nextbtncourselnew{
+  position: absolute;
+  top: 280px;
+  left: 1280px;
+
+
+
+}
+
+
+.nextbtncourselnew i {
+  font-size:70px;
+  color: black;
+}
+
