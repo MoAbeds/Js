@@ -1,0 +1,31 @@
+export default {
+  hello: "Hello!",
+  ForU: "For You",
+  DayRead: "Todays Read",
+  WSYourPass: "WHAT'S YOUR PASSION?",
+  Profile: "Your Profile",
+  LoveReadingBtn: "Log In",
+  LoveReadingHeader: "What do you love  reading \n about?",
+
+  SignUpText:
+    "SignUp to get all the Daily News ,Save your Loved Articles and Share Them",
+  BtnText: "SignUp",
+  MainHeader: "News For Our Time",
+  SecHeader: "Personalized for any interest",
+  MainBtnText: "Get Started",
+  LoginWelcomeHeader: "Welcome back",
+  LoginSubHeader: "Please login to continue",
+  LoginTwitter: "Continue with Twitter",
+  LoginFacebook: "Continue with Facebook",
+  LoginGoogle: "Continue with Google",
+  LoginEmail: "Continue with Email",
+  LoginPriv: " By continunig,you accept the Terms of Use and Privacy Policy",
+  SignupWelcomeHeader: "Create an account to save \n and share stories",
+  SignupSubHeader: "Get the most out of Reporterr",
+  LoginSecHeader: "Welcome to Reporterr",
+  LoginSecSubHeader: "Login or create an account",
+  LoginSecForgotPass: "Forgot username or password?",
+  LoginSecBtn: "Login",
+  LoginSecUsername: "Username",
+  LoginSecUserPass: "Password"
+};
